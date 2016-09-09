@@ -1,5 +1,5 @@
-<section align="center" style="padding: 2em;">
-		<img src="iStudy.png" alt="iStudy">
+<section style="padding: 2em;">
+		<img src="iStudy.png" alt="iStudy" align="middle">
 </section>
 <p align="center">
 	<img src="https://img.shields.io/badge/gem-v2.5.1-green.svg" alt="gem version">
