@@ -1,10 +1,10 @@
-<center><h1 style="padding: 1.5em; font-size:5em">iStudy</h1></center>
+<h1 style="padding: 1.5em; font-size:5em; text-align:center;">iStudy</h1>
 <p align="center">
-	![gem version](https://img.shields.io/badge/gem-v2.5.1-green.svg)
-	![ruby version](https://img.shields.io/badge/Ruby-v2.3.1-red.svg)
-	![rails version](https://img.shields.io/badge/Rails-v5.0.0.1-red.svg)
-	![MySQL](https://img.shields.io/badge/MySQL-v5.7.14-blue.svg)
-	![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)
+	<img src="https://img.shields.io/badge/gem-v2.5.1-green.svg" alt="gem version">
+	<img src="https://img.shields.io/badge/Ruby-v2.3.1-red.svg" alt="ruby version">
+	<img src="https://img.shields.io/badge/Rails-v5.0.0.1-red.svg" alt="rails version">
+	<img src="https://img.shields.io/badge/MySQL-v5.7.14-blue.svg" alt="MySQL version">
+	<img src="https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000" alt="MIT License">
 </p>
 
 ## Synopsis
