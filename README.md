@@ -1,4 +1,6 @@
-<h1 style="padding: 1.5em; font-size:5em; text-align:center;">iStudy</h1>
+<section align="center" style="padding: 2em;">
+		<img src="iStudy.png" alt="iStudy">
+</section>
 <p align="center">
 	<img src="https://img.shields.io/badge/gem-v2.5.1-green.svg" alt="gem version">
 	<img src="https://img.shields.io/badge/Ruby-v2.3.1-red.svg" alt="ruby version">
@@ -71,7 +73,6 @@ $ gem update rails --no-ri --no-rdoc
 ### MySQL version
 ```
 $ mysql -v
-
 ```
 
 ### Update Gems
@@ -129,25 +130,12 @@ Remember to change the path when you are killing the server
 ## Manual
 
 ## Contributors
-* Team Leader:
-	* Weijie Meng
-* Documentation: 
-	* Xiaohua Shi
-* Frontend Team (in alphabetical order):
-	* Qian Zhang
-	* Xiaohua Shi
-	* Yang Shi
-* Backend Team (in alphabetical order):
-	* Guocheng Wei
-	* Maoxia Luo
-	* Weijie Meng
-* Project Owner (in alphabetical order):
-	* Guocheng Wei
-	* Maoxia Luo
-	* Qian Zhang
-	* Weijie Meng
-	* Xiaohua Shi
-	* Yang Shi
+@[Weijie Meng](https://github.com/WeijieMengCS): Team Leader<br>
+@Xiaohua Shi: Documentation, UI/UX Designer<br>
+@[Guocheng Wei](https://github.com/wei170): Backend, Database, UX Designer<br>
+@[Mengxue Luo](https://github.com/luo149): Backend, Database, UX Designer<br>
+@[Qian Zhang](https://github.com/zhan1803): Frontend, UI Designer<br>
+@[Yang Shi](https://github.com/shi238): Frontend, UI Designer<br>
 
 ## Thanks
 
