@@ -1,6 +1,6 @@
-<section style="padding: 2em;">
+<center style="padding: 2em;">
 		<img src="iStudy.png" alt="iStudy" align="middle">
-</section>
+</center>
 <p align="center">
 	<img src="https://img.shields.io/badge/gem-v2.5.1-green.svg" alt="gem version">
 	<img src="https://img.shields.io/badge/Ruby-v2.3.1-red.svg" alt="ruby version">
