@@ -131,7 +131,7 @@ Remember to change the path when you are killing the server
 @[Weijie Meng](https://github.com/WeijieMengCS): Team Leader<br>
 @Xiaohua Shi: Documentation, UI/UX Designer<br>
 @[Guocheng Wei](https://github.com/wei170): Backend, Database, UX Designer<br>
-@[Mengxue Luo](https://github.com/luo149): Backend, Database, UX Designer<br>
+@[Mengxue Luo](https://github.com/maoxiaxia): Backend, Database, UX Designer<br>
 @[Qian Zhang](https://github.com/zhan1803): Frontend, UI Designer<br>
 @[Yang Shi](https://github.com/shi238): Frontend, UI Designer<br>
 
