@@ -22,27 +22,25 @@ manage their studies. One tool, one platform and one user account but manage
 everything. We aim to make students’ academic life easier, more efficient and more
 satisfied. <br><br>
 **Checkout our [Project Charter](Scrum/AgileFramework/charter.pdf).**<br>
-**Checkout our [Project Backlog](Scrum/AgileFramework/Backlog.pdf).**
+**Checkout our [Project Backlog](Scrum/AgileFramework/backlog.pdf).**
 ## Features
 - [ ] Develop a user-friendly interface that can let users use the features conveniently.
 - [ ] For the course registration suggestion feature, all the information about the courses
-come from existing information at ratemyprofessor.com and interviews of current
+come from existing information at ratemyprofessor.com and reviews from current
 registered students.
 - [ ] For the finding classmates feature, the user can enter a matched chat room by
 selecting the course they registered, the group they are interested in. (for example
 if the user prefer Chinese-speaking people). 
 - [ ] For the setting up appropriate meeting time feature, user can send the optional
-meeting time to group members in the format of a table and also sets the due time
-for members to vote the time best fits their schedule and the system will
-automatically generate time for meeting based on the group members vote on due
-date. The system will send a reminder to members who might forget to vote before
-the due date.
+meeting time to event creater by filling out the time slot table and as an event creator,
+a user can set the due time for members to vote the time best fits their schedule and the system will automatically generate time for meeting based on the group members' vote on due
+date. The system will send a reminder to members who might forget to vote before the due date.
 
 ## Setup
 ### Download
 ```
-$ git clone https://github.com/wei170/Santiago.git
-$ cd Santiago
+$ git clone git@github.com:wei170/iStudy.git
+$ cd iStudy
 $ bundle
 ```
 ### Ruby version
