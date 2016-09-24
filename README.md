@@ -22,7 +22,8 @@ manage their studies. One tool, one platform and one user account but manage
 everything. We aim to make students’ academic life easier, more efficient and more
 satisfied. <br><br>
 **Checkout our [Project Charter](Scrum/AgileFramework/charter.pdf).**<br>
-**Checkout our [Project Backlog](Scrum/AgileFramework/backlog.pdf).**
+**Checkout our [Project Backlog](Scrum/AgileFramework/backlog.pdf).**<br>
+**Checkout our [Project DesignDoc](Scrum/AgileFramework/design_doc.pdf).**
 ## Features
 - [ ] Develop a user-friendly interface that can let users use the features conveniently.
 - [ ] For the course registration suggestion feature, all the information about the courses
