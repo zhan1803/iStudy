@@ -12,7 +12,7 @@ if (env == 'production') {
     console.log('local');
     sequelize = new Sequelize(undefined, undefined, undefined, {
         'dialect': 'sqlite', //database type
-        'storage': __dirname + '/database/dev-todo-api.sqlite' //storage location
+        'storage': __dirname + '/database/users.sqlite' //storage location
     });
 }
 
