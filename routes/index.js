@@ -14,7 +14,7 @@ router.get('/forgotpassword', function(req, res, next) {
 });
 
 router.get('/signin', function(req, res, next) {
-  res.render('signin', { title: 'forgotpassword' });
+  res.render('signin', { title: 'signin' });
 });
 
 
