@@ -21,10 +21,12 @@ app.set('port', PORT);
 //     force: true
 // });
 // view engine setup
+// app.set('views', path.join(__dirname, 'views'));
+// app.engine("html", require("ejs").__express); // or   app.engine("html",require("ejs").renderFile);
+// //app.set("view engine","ejs");
+// app.set('view engine', 'html');
 app.set('views', path.join(__dirname, 'views'));
-app.engine("html", require("ejs").__express); // or   app.engine("html",require("ejs").renderFile);
-//app.set("view engine","ejs");
-app.set('view engine', 'html');
+app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
@@ -73,7 +75,7 @@ app.use(function(err, req, res, next) {
 });
 
 db.sequelize.sync({force:true}).then(function() {
-    
+
 });
 
 module.exports = app;
