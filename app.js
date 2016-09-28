@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var PORT = process.env.PORT || 6000;
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -18,8 +18,10 @@ var db = require('./db.js');
 
 //sync sqlize
 db.sequelize.sync({force:true}).then(function() {
+    app.listen(PORT, function() {
+           console.log('Express listening on port ' + PORT + '!');
+       });
 
-    console.log('Sqlize is synced');
 
 });
 // view engine setup
