@@ -15,11 +15,11 @@ var bcrypt = require('bcrypt');
 var db = require('./db.js');
 //var middleware = require('./middleware.js')(db);
 
-
+app.set('port', PORT);
 //sync sqlize
-db.sequelize.sync({
-    force: true
-});
+// db.sequelize.sync({
+//     force: true
+// });
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.engine("html", require("ejs").__express); // or   app.engine("html",require("ejs").renderFile);
@@ -72,5 +72,8 @@ app.use(function(err, req, res, next) {
     });
 });
 
+db.sequelize.sync({force:true}).then(function() {
+    
+});
 
 module.exports = app;
