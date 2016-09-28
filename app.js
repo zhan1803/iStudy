@@ -9,24 +9,20 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-
 //newley installed
 var _ = require('underscore');
 var bcrypt = require('bcrypt');
 var db = require('./db.js');
 //var middleware = require('./middleware.js')(db);
 
+
 //sync sqlize
-db.sequelize.sync({force:true}).then(function() {
-    app.listen(PORT, function() {
-           console.log('Express listening on port ' + PORT + '!');
-       });
-
-
+db.sequelize.sync({
+    force: true
 });
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.engine("html",require("ejs").__express); // or   app.engine("html",require("ejs").renderFile);
+app.engine("html", require("ejs").__express); // or   app.engine("html",require("ejs").renderFile);
 //app.set("view engine","ejs");
 app.set('view engine', 'html');
 
