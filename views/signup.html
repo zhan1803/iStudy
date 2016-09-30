@@ -13,14 +13,15 @@
 <div class="container">
 	<h2> Sign Up</h2>
 	<form>
-		<div class="form-group">
+		<!--<div class="form-group">
 		<label for="text">First Name:</label>
 		<input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
 		</div>
+	-->
 
 		<div class="form-group">
 		<label for="text">Last Name:</label>
-		<input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+		<input type="text" class="form-control" id="username" placeholder="Enter username ">
 		</div>
 
 		<div class="form-group">
@@ -59,11 +60,14 @@
 				$("#confirmPassword").css("border","1px solid red");
 			}else if(password === password1){
 			var data = {"email":username,"password":password};
+			console.log(data.toJSON());
 			$.ajax({
 				url: '/users',
 				type: 'post',
-				data: data,
+				data: JSON.stringify(data),
+            	contentType: "application/json; charset=utf-8"
 				success: function(data,status){
+					console.log('here');
 					if(status == 'success'){
 						location.href = 'login';
 					}

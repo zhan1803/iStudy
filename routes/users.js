@@ -4,6 +4,7 @@ var db = require(__dirname + '/../db.js');
 var _ = require('underscore');
 /* GET users listing. */
 router.post('/', function(req, res, next) {
+    console.log('-=-=------');
     var body = _.pick(req.body, 'email', 'password');
 
     db.user.create(body).then(function(user) {
