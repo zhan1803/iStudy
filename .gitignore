@@ -1,3 +1,4 @@
+# Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
 logs
@@ -36,9 +37,9 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
-node_modules/
+
 .idea/
+config/
 database/*.sqlite
 *.swp
 .DS_Store
-# Created by .ignore support plugin (hsz.mobi)
