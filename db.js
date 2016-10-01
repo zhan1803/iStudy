@@ -27,18 +27,6 @@ if (env == 'production') {
 
 db.user = connection.import(__dirname + '/models/User');
 
-// tmp testing
-connection.sync({force:true}).then(function () {
-    return db.user.create({
-        email: 'maoxia@purdue.edu',
-        username: 'maoxia',
-        password: '122342342343512dfsc'
-    });
-}).catch(function (err) {
-    console.log(err);
-});
-
-
 db.connection = connection;
 module.exports = db;
 

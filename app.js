@@ -7,9 +7,11 @@ var bodyParser = require('body-parser');
 var _ = require('underscore');
 var bcrypt = require('bcrypt');
 var db = require('./db');
+var setupController = require('./controllers/setupController');
 
+//~(˘▾˘~)
 var cool = require('cool-ascii-faces');
-cool();
+
 
 var app = express();
 //var middleware = require('./middleware.js')(db);
@@ -42,6 +44,9 @@ var users = require('./routes/users');
 app.use('/', routes);
 app.use('/users', users);
 
+
+//seed database
+setupController(app);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
